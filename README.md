@@ -15,9 +15,6 @@ The dataset contains information on customer transactions made through an online
 * Investigate the relationship between product pricing and sales volume
 
 
-## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
-
 ## Project Plan
 * Data Extraction: Load data from the CSV file.
 * Data Cleaning: Handle missing values, remove negative quantities and prices
@@ -38,24 +35,10 @@ The dataset contains information on customer transactions made through an online
 * Correlation analysis.
 * Distribution analysis
 
-## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
-
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
-
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+
+Sometime the notebooks were running very slow or having errors, requiring me to re-install pandas, and other libraries.  Not sure sure exactly why this was happening.  But I fixed the issues in the end.
 
 ## Deployment
 * The project is currently running in a Jupyter Notebook environment. Future plans could include deploying it as a web application.
@@ -85,6 +68,30 @@ On the second day, I created various visualizations using libraries like Matplot
 The insights gained from this analysis are valuable for shaping marketing strategies and optimizing product offerings. Understanding peak sales periods can enhance inventory management, while identifying popular products can guide promotional efforts.
 
 Overall, this project demonstrated my ability to apply ETL processes and data visualization techniques to derive meaningful insights from online retail data.
+
+## Final Conclusions & Recomendations
+
+Based on the analysis and visualizations from my project, I have drawn several personalized conclusions and recommendations specifically tailored to the insights gathered:
+
+### Daily Sales Trends
+
+The interactive line chart revealed clear trends in daily sales, with notable peaks during holiday seasons. Businesses should capitalize on these peak periods by ramping up marketing efforts and ensuring adequate stock levels to meet increased demand.
+
+### Sales Patterns by Time
+
+The heatmap displaying sales patterns by day of the week and hour highlighted specific times when sales are highest. This insight can guide targeted marketing campaigns, allowing businesses to focus their promotions during peak sales hours for maximum impact.
+
+### Pricing Strategies
+
+The scatter plot exploring the relationship between quantity sold and price across different countries showed how pricing affects customer purchasing behavior. Businesses should consider adjusting their pricing strategies based on regional preferences to optimize sales.
+
+### Product Performance
+
+The treemap illustrated the distribution of sales by country and product category, helping identify top-performing products and markets. This information can inform inventory decisions and marketing strategies, ensuring that popular products are well-stocked and promoted effectively.
+
+### Customer Segmentation
+
+The 3D scatter plot for RFM (Recency, Frequency, Monetary) segmentation provided insights into customer purchasing behavior. Businesses can use this information to tailor their marketing efforts, focusing on high-value customers with personalized promotions to enhance customer loyalty.
 
 ## Acknowledgements 
 * Thank the people who provided support through this project.
