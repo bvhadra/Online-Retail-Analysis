@@ -21,6 +21,9 @@ The dataset contains information on customer transactions made through an online
 * Data Transformation: Create new features like TotalTransactionValue
 * Exploratory Data Analysis: Generate basic statistics and information about the dataset
 * Data Visualization: Create various charts and graphs to visualize key insights
+* Key summaries from basic data analysis
+* Advanced Data Analysis & Visualizations
+* Provide final conclusions & recomendations based on data analysis
 
 ## The rationale to map the business requirements to the Data Visualisations
 * Monthly Sales Trend: Addresses requirement 3
