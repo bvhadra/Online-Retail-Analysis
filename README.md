@@ -1,34 +1,44 @@
-# Project XYZ
+# Online Retail Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+This project conducts a comprehensive data analysis of online retail transactions, exploring customer behavior, product popularity, and sales patterns. By examining a dataset of online purchases, we aim to identify trends, uncover interesting patterns, and draw actionable conclusions. The insights gained will help optimize pricing strategies, inform marketing decisions, and enhance understanding of customer preferences in the online retail space.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset contains information on customer transactions made through an online retail platform. It includes data on products purchased, quantities, transaction dates and times, prices, customer identifiers, and customer locations. The dataset is sourced from Kaggle: Online Retail Transactions Dataset.
 
 
 ## Business Requirements
-* Describe your business requirements
+* Understand customer purchasing patterns and behavior
+* Identify top-selling products and their characteristics
+* Analyze sales trends over time
+* Examine the geographic distribution of sales
+* Investigate the relationship between product pricing and sales volume
 
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Data Extraction: Load data from the CSV file.
+* Data Cleaning: Handle missing values, remove negative quantities and prices
+* Data Transformation: Create new features like TotalTransactionValue
+* Exploratory Data Analysis: Generate basic statistics and information about the dataset
+* Data Visualization: Create various charts and graphs to visualize key insights
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* Monthly Sales Trend: Addresses requirement 3
+* Top 10 Countries by Sales: Addresses requirements 4 and 5
+* Customer Purchase Frequency: Addresses requirement 1
+* Product Price Distribution: Addresses requirements 2 and 5
+* Correlation Heatmap: Addresses requirements 1, 2, and 5
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Descriptive statistics.
+* Time series analysis.
+* Correlation analysis.
+* Distribution analysis
 
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
@@ -50,6 +60,8 @@
 * What new skills or tools do you plan to learn next based on your project experience? 
 
 ## Deployment
+* The project is currently running in a Jupyter Notebook environment. Future plans include deploying it as a web application.
+
 ### Heroku
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
@@ -65,13 +77,16 @@
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* pandas: For data manipulation and analysis
+* matplotlib: For creating static visualizations
+* seaborn: For statistical data visualization
+* numpy: For numerical computing
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Dataset source: Kaggle 
+
 
 ### Content 
 
