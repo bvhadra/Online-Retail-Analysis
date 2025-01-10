@@ -1,8 +1,6 @@
 # Online Retail Analysis
 
-This project conducts a comprehensive data analysis of online retail transactions, exploring customer behavior, product popularity, and sales patterns. By examining a dataset of online purchases, we aim to identify trends, uncover interesting patterns, and draw actionable conclusions. The insights gained will help optimize pricing strategies, inform marketing decisions, and enhance understanding of customer preferences in the online retail space.
-
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This project conducts a comprehensive data analysis of online retail transactions, exploring customer behavior, product popularity, and sales patterns. By examining a dataset of online purchases, I aim to identify trends, uncover interesting patterns, and draw actionable conclusions. The insights gained will help optimize pricing strategies, inform marketing decisions, and enhance understanding of customer preferences in the online retail space.
 
 
 ## Dataset Content
@@ -60,21 +58,7 @@ The dataset contains information on customer transactions made through an online
 * What new skills or tools do you plan to learn next based on your project experience? 
 
 ## Deployment
-* The project is currently running in a Jupyter Notebook environment. Future plans include deploying it as a web application.
-
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
+* The project is currently running in a Jupyter Notebook environment. Future plans could include deploying it as a web application.
 
 ## Main Data Analysis Libraries
 * pandas: For data manipulation and analysis
@@ -82,24 +66,25 @@ The dataset contains information on customer transactions made through an online
 * seaborn: For statistical data visualization
 * numpy: For numerical computing
 
-
 ## Credits 
 
 * Dataset source: Kaggle 
 
+## Content 
 
-### Content 
+* Dataset source: Kaggle 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+## Executive Summary
 
-### Media
+This project focuses on analyzing online retail transaction data to understand customer behavior and improve sales strategies. Over two days, I worked on extracting, cleaning, and visualizing data sourced from Kaggle.
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
+I started by loading the dataset from a CSV file and ensuring its accuracy by fixing missing values and removing duplicates. This was essential for reliable analysis. I also calculated new features, such as the total transaction value for each purchase.
 
+On the second day, I created various visualizations using libraries like Matplotlib, Seaborn, and Plotly. Key visualizations included an interactive line chart showing daily sales trends and a heatmap displaying sales patterns by day of the week and hour. I also developed a scatter plot to explore the relationship between quantity sold and price across different countries, along with a treemap illustrating sales distribution by country and product category. Finally, I created a 3D scatter plot for customer segmentation based on Recency, Frequency, and Monetary value.
 
+The insights gained from this analysis are valuable for shaping marketing strategies and optimizing product offerings. Understanding peak sales periods can enhance inventory management, while identifying popular products can guide promotional efforts.
 
-## Acknowledgements (optional)
+Overall, this project demonstrated my ability to apply ETL processes and data visualization techniques to derive meaningful insights from online retail data.
+
+## Acknowledgements 
 * Thank the people who provided support through this project.
